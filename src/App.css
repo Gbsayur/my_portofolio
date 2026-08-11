@@ -1,0 +1,44 @@
+.app{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+   font-weight: bold;
+   padding-top: 10px;
+}
+.nav-links, li, a{
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 10px;
+  transition: 0.3s ease-in-out;
+}
+.nav-links li a:hover{
+  color: gray;
+  text-decoration: none;
+  position: relative;
+  bottom: 3px;
+}
+.active {
+  color: gray;
+  text-decoration: none;
+  position: relative;
+  bottom: 3px;
+}
+.nav-link, h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 40px;
+}
+.navbar{
+  box-shadow: 2px 2px 5px 5px gray;
+  position: fixed;
+  top: 40px;
+  width: 95%;
+  left: 2%;
+  border-radius: 10px;
+}

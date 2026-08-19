@@ -5,7 +5,7 @@ const About = () => {
         <>
         <main>
           <div className="about">
-          <p>hello</p>
+          <p className="p2">hello</p>
           </div>
         </main>
     </>

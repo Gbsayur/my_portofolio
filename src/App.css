@@ -92,7 +92,7 @@
 padding-top: 90px;
 }
 .about{
-  margin-top: 850px;
+  margin-top:  550px;
 }
 .h5 {
   position: relative;
@@ -123,4 +123,22 @@ padding-top: 90px;
  position: relative;
   left: 70%;
   bottom: 120px;
+}
+.about {
+  background-color: white;
+  width: 50%;
+  position: relative;
+  left: 40px;
+  border-radius: 20px;
+  bottom: 90px;
+  height: 400px;
+  box-shadow: 2px 2px 5px 2px black;
+}
+.p2{
+  color: black;
+  padding-left: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
 }

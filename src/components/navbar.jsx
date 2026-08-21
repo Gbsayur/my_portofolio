@@ -12,8 +12,8 @@ const Navbar = () => {
             <ul className="nav-links">
                 <li><a href="#Home" className={active === 'home' ? 'active' : ''} onClick={() => setActive('home')}>Home</a></li>
                 <li><a href="#About" className={active === 'about' ? 'active' : ''} onClick={() => setActive('about')}>About</a></li>
-                <li><a href="#" className={active === 'services' ? 'active' : ''} onClick={() => setActive('services')}>SKILL</a></li>
-                <li><a href="#" className={active === 'contact' ? 'active' : ''} onClick={() => setActive('contact')}>Contact</a></li>
+                <li><a href="#Skill" className={active === 'skill' ? 'active' : ''} onClick={() => setActive('skill')}>SKILL</a></li>
+                <li><a href="#Contact" className={active === 'contact' ? 'active' : ''} onClick={() => setActive('contact')}>Contact</a></li>
             </ul>
         </div>
         <section> 

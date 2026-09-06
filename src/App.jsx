@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import profilePhoto from './assets/orangganteng.jpg'
-import heroImage from './assets/hero.png'
+import heroImage from './assets/webmakanan.png'
 import projectImage from './assets/project1.png'
 
 const typedWords = ['React.js', 'frontend', 'backend', 'website cepat']
@@ -22,14 +22,14 @@ const projects = [
     title: 'Website Sekolah',
     description: 'Landing page sekolah yang rapi, cepat dibuka, dan nyaman digunakan di layar kecil.',
     image: projectImage,
-    link: 'https://ypial-falah.my.id',
+    link: 'https://website-pengunjung.vercel.app/',
     tags: ['React', 'CSS', 'Responsive'],
   },
   {
-    title: 'Portfolio Personal',
+    title: 'Web UMKM Makanan',
     description: 'Profil web modern dengan fokus pada performa, aksesibilitas, dan tampilan bersih.',
     image: heroImage,
-    link: '#home',
+    link: 'https://umkm-makanan-ten.vercel.app/',
     tags: ['UI', 'Animation', 'Mobile'],
   },
 ]

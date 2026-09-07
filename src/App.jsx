@@ -186,7 +186,7 @@ function App() {
             <h2>Mau diskusi project atau belajar bareng?</h2>
             <p>Kirim pesan lewat email atau hubungi saya langsung untuk kolaborasi kecil, tugas sekolah, atau project web.</p>
           </div>
-          <a className="button primary reveal delay-1" href="mailto:abdirivai@example.com">abdirivai@example.com</a>
+          <a className="button primary reveal delay-1" href="abdirifai32@gmail.com">abdirifai32@gmail.com</a>
         </section>
       </main>
     </div>
